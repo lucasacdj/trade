@@ -53,5 +53,9 @@ $route['default_controller'] = 'welcome';
 $route['cadastrar_cep'] = 'Welcome/cadastrar_novo_cep';
 $route['CEPS'] = 'Welcome/listarCepsCadastrados';
 $route['index'] = 'Welcome/index';
+
+// ---------------WEB---------------
+
+$route['web'] = 'Welcome/web';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
