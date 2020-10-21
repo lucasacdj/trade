@@ -56,6 +56,7 @@ $route['index'] = 'Welcome/index';
 
 // ---------------WEB---------------
 
-$route['web'] = 'Welcome/web';
+$route['endpoint'] = 'Welcome/endpoint';
+$route['endpoint_cadastro_por_lote'] = 'Welcome/endpoint_cadastro_por_lote';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
