@@ -2,8 +2,6 @@ Antes de mais nada crie um novo schema e execute este create table
 
 ---
 
-Segue o create table :
-
 CREATE TABLE `cep` (
 	  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
 	  `cep` int(11) DEFAULT NULL,
