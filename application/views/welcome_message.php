@@ -43,7 +43,7 @@
 	<div class="form-group">
 
 		<label for="cep">Informe um CEP</label>
-		<input type="number" class="form-control" id="cep" min="100000" max="999999" name="cep">
+		<input type="number" class="form-control" id="cep" min="100001" max="999998" name="cep">
 
 	</div>
 

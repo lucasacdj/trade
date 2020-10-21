@@ -171,7 +171,7 @@ class Welcome extends CI_Controller
 		}
 	}
 
-	public function endpoint_cadastro_por_lote()
+	public function cadastro_por_lote()
 	{
 		$recuperaMetodo = $_SERVER['REQUEST_METHOD'];
 
