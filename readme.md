@@ -1,3 +1,18 @@
+Antes de mais nada crie um novo schema e execute este create table
+
+---
+
+Segue o create table :
+
+CREATE TABLE `cep` (
+	  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+	  `cep` int(11) DEFAULT NULL,
+	  `cidade` varchar(45) DEFAULT NULL,
+	  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=latin1;
+
+------------
+
 Para desenvolvimento do projeto foi utilizado o framework Codeigniter 3 junto ao PHP 7.2 e o  banco de dados MYSQL.  Como se trata de um framework é necessário algumas configurações . Primeiro após clonar o projeto informe as credencias de seu banco de dados dentro do do arquivo database.php , application\config\database.php.
 
 ```
@@ -83,15 +98,4 @@ $route['translate_uri_dashes'] = FALSE;
 	]
 	Vale lembrar que as URL's variam de acordo com a localização de seu projeto .
 	
----
-
-Segue o create table :
-
-CREATE TABLE `cep` (
-	  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-	  `cep` int(11) DEFAULT NULL,
-	  `cidade` varchar(45) DEFAULT NULL,
-	  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=latin1;
-
 
